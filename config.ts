@@ -22,7 +22,7 @@ interface Config {
 
 const config: Config = {
   discord: {
-    botToken: process.env.DISCORD_BOT_TOKEN || "MTM1MzA5MjM5MjkwNzE4MjEwMg.GLR2rg.Z92yDX5PWaRwB1Xf-Ms2rtiuSRCGGFawbW3eZ8",
+    botToken: process.env.DISCORD_BOT_TOKEN || "",
     clientId: process.env.DISCORD_CLIENT_ID || "1353092392907182102",
     clientSecret: process.env.DISCORD_CLIENT_SECRET || "SClLvfE4ToObXA9DT8-IU4MjvnKh92w3",
     serverId: process.env.DISCORD_SERVER_ID || "1354492353951563776",
